@@ -1,0 +1,11 @@
+body {
+    background-image: url( ../img/ripple_yellow.png );
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EED7A1;
+}
+
+p {
+    color: white;
+}
