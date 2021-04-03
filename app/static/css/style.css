@@ -9,3 +9,37 @@ body {
 p {
     color: black;
 }
+
+.law_of_choice {
+    width:100px;
+    height:100px;
+}
+
+.underline.bold {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: transparent; }
+    10%{    color: rgb(230, 231, 166); }
+    20%{    color: rgb(243, 239, 135); }
+    30%{    color: rgb(152, 180, 50); }
+    40%{    color: rgb(66, 151, 32); }
+    50%{    color: rgb(20, 97, 10); }
+    60%{    color: rgb(66, 151, 32); }
+    70%{    color: rgb(152, 180, 50); }
+    80%{    color: rgb(243, 239, 135); }
+    90%{    color: rgb(230, 231, 166); }
+    100%{     color: transparent; }
+}
